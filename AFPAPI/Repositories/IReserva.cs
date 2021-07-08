@@ -6,7 +6,7 @@ namespace AFPAPI.Repositories
 {
     public interface IReserva
     {
-        Task<Reserva> AddReserva(Reserva reserva);
+        Task AddReserva(Reserva reserva);
         Task<List<Reserva>> GetReservas();
     }
 }
